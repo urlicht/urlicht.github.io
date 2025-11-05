@@ -26,6 +26,7 @@
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
                     <li class="nav-item"><a class="nav-link" href="#thesis_project">Thesis Project</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
                     <li class="nav-item"><a class="nav-link" href="#publication">Publications</a></li>
                     <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                     <li class="nav-item"><a class="nav-link" href="/architecture.html">Architecture</a></li>
@@ -128,7 +129,7 @@
                                     elegans</i>
                             </h4>
                             <p>
-                                I co-led a pioneering neuroscience project that was published in
+                                I led with Adam Atanas, a pioneering neuroscience project that was published in
                                 <a href="https://doi.org/10.1016/j.cell.2023.07.035" target="_blank">Cell</a> and
                                 featured in <a
                                     href="https://www.scientificamerican.com/article/worm-brains-decoded-like-never-before-could-shed-light-on-our-own-mind/"
@@ -187,6 +188,135 @@
         </div> <!-- container -->
     </section>
 
+    <section id="projects" class="light">
+        <div class="container">
+            <div class="row justify-content-center px-3 px-lg-0">
+                <div class="col-lg-10">
+                    <div class="section-header mt-5">
+                        <h2>Projects</h2>
+                        <p>
+                            A closer look at the engineering and modeling components of my work
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                <div class="col">
+                    <div class="project-card p-4 bg-white shadow-sm rounded-3">
+                        <img src="img/project/fish.webp" alt="Microscope diagram and calcium imaging examples" class="project-media object-top" loading="lazy">
+                        <h4 class="h5">Brain-wide cellular-resolution imaging in freely behaving animal</h4>
+                        <p>
+                            World's first cellular-resolution brain-wide neural imaging of vertebrae
+                        </p>
+                        <ul class="mb-0">
+                            <li>Real-time image procesing and model predictive control to perform motion cancelling</li>
+                            <li>DIFF, a structural illumination technique, to perform optical sectioning (3D imaging)</li>
+                        </ul>
+                        <div class="mt-auto pt-3 d-flex">
+                            <div class="btn-group btn-group-sm" role="group">
+                                <a href="#kim_dh_2017" class="btn btn-sm btn-custom-secondary">Paper</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="project-card p-4 bg-white shadow-sm rounded-3">
+                        <img src="img/project/neural_trace.webp" alt="Neural imaging pipeline software screenshot" class="project-media" loading="lazy">
+                        <h4 class="h5">TB-scale Neural Data Processing Pipeline</h4>
+                        <p>
+                            Built an end-to-end software stack to process and extract nerual activity from 10s of TBs of data
+                        </p>
+                        <ul class="mb-0">
+                            <li>Deep learning models for 3D tasks, custom GPU-accelerated motion correction and denoising</li>
+                            <li>HPC-deployed parallel processing</li>
+                        </ul>
+                        <div class="mt-auto pt-3 d-flex">
+                            <div class="btn-group btn-group-sm" role="group">
+                                <a href="#atanas_kim_2023" class="btn btn-sm btn-custom-secondary">Paper</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="project-card p-4 bg-white shadow-sm rounded-3">
+                        <img src="img/project/cepnem.webp" alt="Probabilistic modeling visualization" class="project-media object-top" loading="lazy">
+                        <h4 class="h5">Probabilistic Generative Encoding Models</h4>
+                        <p>
+                            Probabilistic encoding models that link neural activity to rich behavioral state
+                            representations.
+                        </p>
+                        <ul class="mb-0">
+                            <li>Non-linear models to capture key neuronal encoding motifs</li>
+                            <li>Tailored inference algorithms using SMC with MCMC with HMC and MH with custom proposals</li>
+                        </ul>
+                        <div class="mt-auto pt-3 d-flex">
+                            <div class="btn-group btn-group-sm" role="group">
+                                <a href="#atanas_kim_2023" class="btn btn-sm btn-custom-secondary">Paper</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="project-card p-4 bg-white shadow-sm rounded-3">
+                        <img src="img/project/connectome.webp" alt="Connectome-aware atlas artwork" class="project-media" loading="lazy">
+                        <h4 class="h5">Mapping Functional Properties onto Connectome</h4>
+                        <p>
+                            Mapping learned encoding features onto the wiring diagram
+                        </p>
+                        <ul class="mb-0">
+                            <li>Inferred encoding properties from functional data mapped onto the connectome</li>
+                        </ul>
+                        <div class="mt-auto pt-3 d-flex">
+                            <div class="btn-group btn-group-sm" role="group">
+                                <a href="#atanas_kim_2023" class="btn btn-sm btn-custom-secondary">Paper</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="project-card p-4 bg-white shadow-sm rounded-3">
+                        <img src="img/project/wormwideweb.webp" alt="Connectome-aware atlas artwork" class="project-media" loading="lazy">
+                        <h4 class="h5">WormWideWeb</h4>
+                        <p>
+                            Fullstack webapp to explore and visualize <i>C. elegans </i> neural datasets and connectomes
+                        </p>
+                        <ul class="mb-0">
+                            <li>Won the MIT Prize for Open Data</li>
+                            <li>Explore, search, plot, and download neural datasets</li>
+                        </ul>
+                        <div class="mt-auto pt-3 d-flex">
+                            <div class="btn-group btn-group-sm" role="group">
+                                <a href="https://wormwideweb.org" class="btn btn-sm btn-custom-secondary">WormWideWeb</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="project-card p-4 bg-white shadow-sm rounded-3">
+                        <img src="img/project/dl_reg.webp" alt="Connectome-aware atlas artwork" class="project-media" loading="lazy">
+                        <h4 class="h5">Deep-learning pipeline for 3D neural image processing</h4>
+                        <p>
+                            Pipeline register, segment, and identify neurons
+                        </p>
+                        <ul class="mb-0">
+                            <li>3D segmentation, volumetric non-rigid registration, and neuronal identity classification</li>
+                        </ul>
+                        <div class="mt-auto pt-3 d-flex">
+                            <div class="btn-group btn-group-sm" role="group">
+                                <a href="#elife_2025" class="btn btn-sm btn-custom-secondary">Paper</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
     <!-- Publications section -->
     <section id="publication" class="light">
         <div class="container">
@@ -197,14 +327,15 @@
                     </div>
                     <div class="row g-4">
                         <!-- bioarxiv deepnets -->
-                        <div class="col-lg-6" id="bioarxiv_2024">
-                            <div class="h-100 d-flex flex-column p-4 bg-white shadow-sm rounded-3">
+                        <div class="col-lg-6" id="elife_2025">
+                            <div
+                                class="publication-card h-100 d-flex flex-column p-4 bg-white shadow-sm rounded-3"
+                                tabindex="-1">
                                 <!-- Headings (stay at the top) -->
                                 <h5 class="card-title mb-1">
-                                    Deep Neural Networks to Register and Annotate the Cells of the <i>C. elegans</i>
-                                    Nervous System
+                                    Deep Neural Networks to Register and Annotate Cells in Moving and Deforming Nervous Systems
                                 </h5>
-                                <h5>bioRxiv, 2024</h5>
+                                <h5>eLife, 2025</h5>
 
                                 <!-- Middle row that expands and centers its contents vertically -->
                                 <div class="row flex-grow-1 d-flex align-items-center mb-3">
@@ -215,8 +346,8 @@
                                     </div>
                                     <div class="col-md-9">
                                         <p>
-                                            Adam A. Atanas, Alicia Kun-Yang Lu, <u><b>Jungsoo Kim</b></u>, Saba
-                                            Baskoylu, Di Kang, Talya S. Kramer, Eric Bueno, Flossie K. Wan, Steven W.
+                                            Adam A. Atanas, Alicia Kun-Yang Lu, Brian Goodell, <u><b>Jungsoo Kim</b></u>, Saba
+                                            Baskoylu, Di Kang, Talya S. Kramer, Eric Bueno, Flossie K. Wan, Karen L. Cunningham, Brandon Weissbourd, Steven W.
                                             Flavell
                                         </p>
                                     </div>
@@ -226,9 +357,9 @@
                                 <div class="row mt-auto">
                                     <div class="d-flex flex-wrap align-items-center gap-3">
                                         <div class="btn-group btn-group-sm" role="group">
-                                            <a href="https://www.biorxiv.org/content/10.1101/2024.07.18.601886v1.abstract"
+                                            <a href="https://doi.org/10.7554/eLife.108159.1"
                                                 target="_blank" class="btn btn-sm btn-custom-secondary">
-                                                bioRxiv
+                                                Article
                                             </a>
                                         </div>
                                     </div>
@@ -237,8 +368,10 @@
                         </div>
 
                         <!-- atanas kim -->
-                        <div class="col-lg-6" id="atanas_kim_2023">
-                            <div class="h-100 d-flex flex-column p-4 bg-white shadow-sm rounded-3">
+                        <div class="col-lg-6">
+                            <div id="atanas_kim_2023"
+                                class="publication-card h-100 d-flex flex-column p-4 bg-white shadow-sm rounded-3"
+                                tabindex="-1">
                                 <!-- Headings (stay at the top) -->
                                 <h5 class="card-title mb-1">
                                     Brain-wide representations of behavior spanning multiple timescales
@@ -297,8 +430,10 @@
                         </div>
 
                         <!-- 5-ht -->
-                        <div class="col-lg-6" id="dag_nwabudike_kang_2023">
-                            <div class="h-100 d-flex flex-column p-4 bg-white shadow-sm rounded-3">
+                        <div class="col-lg-6">
+                            <div id="dag_nwabudike_kang_2023"
+                                class="publication-card h-100 d-flex flex-column p-4 bg-white shadow-sm rounded-3"
+                                tabindex="-1">
                                 <!-- Headings (stay at the top) -->
                                 <h5 class="card-title mb-1">
                                     Dissecting the functional organization of the <i>C. elegans</i> serotonergic system
@@ -347,8 +482,10 @@
                         </div>
 
 
-                        <div class="col-lg-6" id="dag_nwabudike_kang_2023">
-                            <div class="h-100 d-flex flex-column p-4 bg-white shadow-sm rounded-3">
+                        <div class="col-lg-6">
+                            <div id="kim_dh_2017"
+                                class="publication-card h-100 d-flex flex-column p-4 bg-white shadow-sm rounded-3"
+                                tabindex="-1">
                                 <!-- Headings (stay at the top) -->
                                 <h5 class="card-title mb-1">
                                     Pan-neuronal calcium imaging with cellular resolution in freely swimming zebrafish

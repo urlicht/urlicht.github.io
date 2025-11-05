@@ -158,3 +158,33 @@ section.light {
   transform: translateY(-2px);
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.project-card .project-media {
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 0.75rem;
+  margin-bottom: 1.25rem;
+  box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.12);
+}
+
+@supports not (aspect-ratio: 3 / 2) {
+  .project-card .project-media {
+    height: 240px;
+  }
+}
+
+.project-card .project-media.object-top {
+  object-position: top;
+}
+
+.project-card .project-media.object-bottom {
+  object-position: bottom;
+}
